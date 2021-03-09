@@ -1,0 +1,12 @@
+#pip3 install speedtest-cli 
+
+from speedtest import Speedtest
+
+hız= Speedtest()
+
+indirme_hızı = hız.download()/8000000
+upload_hızı = hız.upload()/8000000
+
+print("Your download speed is:",indirme_hızı)
+print("Your upload speed is:",upload_hızı)
+
