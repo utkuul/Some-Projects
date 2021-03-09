@@ -1,0 +1,12 @@
+sayılar = [1,2,3,4,5,6,7,8,9] 
+çift_sayı = []
+tek_sayı = []
+
+
+for i in sayılar:
+ if(i % 2 == 0):
+  sayılar.append = çift_sayı
+  print("Çift sayılar:",çift_sayı)
+ else:
+ print("Tek sayılar:",tek_sayı)
+ 
