@@ -1,0 +1,9 @@
+from gtts import gTTS 
+import os
+from googletrans import Translator
+
+tts = gTTS(text="benim adım saros", lang='tr',slow = False)
+
+tts.save("merhaba2.mp3")
+os.system("merhaba2.mp3")
+
