@@ -1,0 +1,10 @@
+student_name = str(input("Enter a name:"))
+
+marks = {'John': 90, 'Sally': 55, 'Jason': 77}
+
+for student in marks:
+    if student == student_name:
+        print(marks[student])
+        break
+else:
+    print('No entry with that name found.')
