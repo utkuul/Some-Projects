@@ -1,0 +1,5 @@
+name=str(input("Enter your username:"))
+if(name=="Fear12"):
+    print("Okay, you can enter!")
+else:
+    print("Its not true.Try again!")
