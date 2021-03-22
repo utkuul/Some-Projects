@@ -1,0 +1,7 @@
+import rotatescreen
+import time
+
+ekran = rotatescreen.get_primary_display()
+for i in range(5):
+    time.sleep(2) #2sec delay
+    ekran.rotate_to(i*90 % 360)
