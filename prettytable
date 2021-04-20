@@ -11,3 +11,4 @@ x.add_rows([
         ["Nairobi", 5, 4336374],
         ["Helsinki", 6, 3806092],
         ["Denver", 7, 1554769],])
+print(x)
