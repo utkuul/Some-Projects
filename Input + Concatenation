@@ -1,0 +1,15 @@
+counter = 1
+while (counter < 10):
+    first_name = input("Enter your name: ")
+    second_name = input("Enter your second name: ")
+    age = input("Enter your age: ")
+    country = input("Where are you from?: ")
+
+    print ("------------------------------------------")
+    print ("Your Name:",first_name)
+    print ("Your Second Name:", second_name)
+    print ("I guess you are",age,"years old.")
+    print ("You are from {}.".format(country))
+    print ("Try again!")
+    print ("------------------------------------------")
+    counter = counter + 1
