@@ -1,0 +1,6 @@
+import time
+for i in range(1,10):
+    time.sleep(1)
+    print("{}.repeat".format(i))
+    print("->I will learn python")
+    print("---------------------")
