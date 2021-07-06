@@ -1,12 +1,17 @@
-sayılar = [1,2,3,4,5,6,7,8,9] 
-çift_sayı = []
-tek_sayı = []
+numbers = [1,2,3,4,5,6,7,8,9] 
 
+even = []
+odd = []
 
-for i in sayılar:
+for i in numbers:
  if(i % 2 == 0):
-  sayılar.append = çift_sayı
-  print("Çift sayılar:",çift_sayı)
+     even.append(i)
  else:
- print("Tek sayılar:",tek_sayı)
+     odd.append(i)
+     
+print("Odd Numbers of List:",odd)
+print("Even Numbers of List:",even)
+
+print("..........................")
+
  
