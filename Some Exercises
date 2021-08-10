@@ -1,0 +1,49 @@
+#Kullanıcıdan İstenilen 2 Sayı ile 4 işlem
+birincisayi = int(input("1.sayıyı giriniz:"))
+ikincisayi = int(input("2.sayıyı giriniz:"))
+toplam = birincisayi + ikincisayi
+fark = birincisayi - ikincisayi
+carpim = birincisayi * ikincisayi
+bolum = birincisayi / ikincisayi
+
+print("Toplam işlemi:",toplam)
+print("Çarpım işlemi:",carpim)
+print("Bölüm işlemi:",bolum)
+print("Çıkarma işlemi:",fark)
+-----------------------------------------------------------
+#İstenilen Sayıların Ortalamasını Alma -1-
+numbers = input("Ortalaması alınacak sayıları giriniz:")
+sayilar = numbers.split(" ")
+sayac = 0 
+toplam = 0
+
+for sayi in sayilar:
+  sayi =int(sayi)
+  sayac+=1
+  toplam += sayi
+print(toplam/sayac)
+-----------------------------------------------------------
+#İstenilen Sayıların Ortalamasını Alma -2-
+numbers = input("Ortalaması alınacak sayıları giriniz:")
+sayilar = numbers.split(" ")
+toplam = 0
+
+for sayi in sayilar:
+  sayi =int(sayi)
+  toplam += sayi
+print(toplam/len(sayilar))
+-----------------------------------------------------------
+dogumyili = int(input("Doğum yılınızı giriniz:")
+takvimyili = int(input("İçinde bulunduğumuz yılı giriniz:")
+yas = takvimyili - dogumyili
+print("Yaşınız=",yaş)
+-----------------------------------------------------------
+
+
+
+
+
+
+
+
+
